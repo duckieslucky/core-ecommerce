@@ -12,7 +12,7 @@ namespace core_ecommerce.EntityFrameworkCore.EntityFramework
             //read configuration from appsettings.js
             IConfigurationRoot configuration = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("appsettings.json")
+                .AddJsonFile("appSettings.json")
                 .Build();
             var connectionString = configuration.GetConnectionString("EcommerceDatabase");
 

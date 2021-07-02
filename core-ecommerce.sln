@@ -3,18 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "core-ecommerce.WebAPI", "WebAPI\core-ecommerce.WebAPI.csproj", "{C8B5BAA5-972B-4FED-B781-F39462D101FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "core-ecommerce.WebAPI", "WebAPI\core-ecommerce.WebAPI.csproj", "{C8B5BAA5-972B-4FED-B781-F39462D101FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "core-ecommerce.Application", "core-ecommerce.Application\core-ecommerce.Application.csproj", "{E9DAF9F6-0CE0-439E-B5F0-750B898CDB41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "core-ecommerce.Application", "core-ecommerce.Application\core-ecommerce.Application.csproj", "{E9DAF9F6-0CE0-439E-B5F0-750B898CDB41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "core-ecommerce.EntityFrameworkCore", "core-ecommerce.EntityFrameworkCore\core-ecommerce.EntityFrameworkCore.csproj", "{84306A7D-29A0-478D-88DD-CD13AED8C937}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "core-ecommerce.EntityFrameworkCore", "core-ecommerce.EntityFrameworkCore\core-ecommerce.EntityFrameworkCore.csproj", "{84306A7D-29A0-478D-88DD-CD13AED8C937}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "core-ecommerce.Utility", "core-ecommerce.Utility\core-ecommerce.Utility.csproj", "{CAB79B0C-908A-4A20-A6C9-068A1BDCC7C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "core-ecommerce.Utility", "core-ecommerce.Utility\core-ecommerce.Utility.csproj", "{CAB79B0C-908A-4A20-A6C9-068A1BDCC7C2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{49F4E622-C4D5-425D-BA4F-C0A0BBEF24F0}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "core-ecommerce.ReactJS", "core-ecommerce.ReactJS\core-ecommerce.ReactJS.csproj", "{88E05513-C74C-42ED-925D-270BBDA70C40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +40,10 @@ Global
 		{CAB79B0C-908A-4A20-A6C9-068A1BDCC7C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAB79B0C-908A-4A20-A6C9-068A1BDCC7C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAB79B0C-908A-4A20-A6C9-068A1BDCC7C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88E05513-C74C-42ED-925D-270BBDA70C40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88E05513-C74C-42ED-925D-270BBDA70C40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88E05513-C74C-42ED-925D-270BBDA70C40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88E05513-C74C-42ED-925D-270BBDA70C40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
