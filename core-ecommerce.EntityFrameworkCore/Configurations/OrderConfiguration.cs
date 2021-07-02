@@ -16,6 +16,10 @@ namespace core_ecommerce.EntityFrameworkCore.Configurations
             builder.HasKey(x => x.Id);
 
             builder.Property(x => x.ShipEmail).IsRequired().IsUnicode(false).HasMaxLength(50);
+
+            builder.HasOne(x => x.User)
+                    .WithMany(x => x.Orders)
+                    .HasForeignKey(x => x.UserId);
         }
     }
 }

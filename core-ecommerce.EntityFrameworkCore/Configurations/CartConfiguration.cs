@@ -18,6 +18,10 @@ namespace core_ecommerce.EntityFrameworkCore.Configurations
             builder.Property(x => x.Price).IsRequired();
 
             builder.Property(x => x.Quantity).IsRequired();
+
+            builder.HasOne(x => x.User)
+                    .WithOne(x => x.Cart)
+                    .HasForeignKey<Cart>(x => x.UserId);
         }
     }
 }

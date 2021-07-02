@@ -1,4 +1,5 @@
-﻿using System;
+﻿using core_ecommerce.EntityFrameworkCore.Entities;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -15,5 +16,6 @@ namespace core_ecommerce.EntityFrameworkCore.EntityFramework.Entities
         public string ShipPhoneNumber { set; get; }
         public bool Status { set; get; }
         public List<OrderDetail> OrderDetails { set; get; }
+        public AppUser User { set; get; }
     }
 }
