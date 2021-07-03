@@ -3,9 +3,11 @@ import img_time from '../images/icon-img/time.png'
 import img_dollar from '../images/icon-img/dollar.png'
 import img_discount from '../images/icon-img/discount.png'
 
-export default img = {
+const img = {
     img_car,
     img_discount,
     img_dollar,
     img_time
 }
+
+export default img

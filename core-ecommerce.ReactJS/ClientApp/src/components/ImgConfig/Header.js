@@ -4,10 +4,12 @@ import img_arabic from '../images/icon-img/arabic.png'
 import img_menu from '../images/banner/menu.png'
 import img_logo from '../images/logo/logo.png'
 
-export default img = {
+const img = {
     img_arabic,
     img_flag,
     img_logo,
     img_menu,
     img_spanish
 }
+
+export default img

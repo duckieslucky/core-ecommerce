@@ -1,5 +1,7 @@
 import img_quickview from '../images/product/quickview.png'
 
-export default img = {
+const img = {
     img_quickview
 }
+
+export default img
