@@ -1,10 +1,6 @@
 import React from 'react'
-import img_flag from '../images/icon-img/flag.png'
-import img_spanish from '../images/icon-img/spanish.png'
-import img_arabic from '../images/icon-img/arabic.png'
-import img_menu from '../images/banner/menu.png'
-import img_logo from '../images/logo/logo.png'
-import {Link} from 'react-router-dom';
+import img from '../ImgConfig/Header'
+import { Link } from 'react-router-dom';
 
 export default function Header() {
     return (
@@ -34,15 +30,15 @@ export default function Header() {
                                         </div>
                                     </div>
                                     <div className="language-wrap">
-                                        <a className="language-active" href="#"><img src={img_flag} alt=""/>
+                                        <a className="language-active" href="#"><img src={img.img_flag} alt="" />
                                             English
                                             <i className=" ti-angle-down "></i>
                                         </a>
                                         <div className="language-dropdown">
                                             <ul>
-                                                <li><a href="#"><img src={img_flag} alt=""/>English</a></li>
-                                                <li><a href="#"><img src={img_spanish} alt=""/>Spanish</a></li>
-                                                <li><a href="#"><img src={img_arabic} alt=""/>Arabic</a></li>
+                                                <li><a href="#"><img src={img.img_flag} alt="" />English</a></li>
+                                                <li><a href="#"><img src={img.img_spanish} alt="" />Spanish</a></li>
+                                                <li><a href="#"><img src={img.img_arabic} alt="" />Arabic</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -56,7 +52,7 @@ export default function Header() {
                         <div className="row align-items-center">
                             <div className="col-lg-3 col-md-6 col-6">
                                 <div className="logo">
-                                    <a href="index.html"><img src={img_logo} alt="logo"/></a>
+                                    <a href="index.html"><img src={img.img_logo} alt="logo" /></a>
                                 </div>
                             </div>
                             <div className="col-lg-6 d-none d-lg-block d-flex justify-content-center">
@@ -121,7 +117,7 @@ export default function Header() {
                                                                 </ul>
                                                             </li>
                                                             <li>
-                                                                <a href="shop.html"><img src={img_menu} alt=""/></a>
+                                                                <a href="shop.html"><img src={img.img_menu} alt="" /></a>
                                                             </li>
                                                         </ul>
                                                     </li>
@@ -196,7 +192,7 @@ export default function Header() {
                                         </a>
                                         <div className="search-wrap-1">
                                             <form action="#">
-                                                <input placeholder="Search products…" type="text"/>
+                                                <input placeholder="Search products…" type="text" />
                                                 <button className="button-search">
                                                     <i className="pe-7s-search"></i>
                                                 </button>

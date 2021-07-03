@@ -1,8 +1,5 @@
 import React from 'react'
-import img_product_1 from '../images/product/product-1.png'
-import img_product_2 from '../images/product/product-2.png'
-import img_product_3 from '../images/product/product-3.png'
-import img_product_4 from '../images/product/product-4.png'
+import img from '../ImgConfig/Product'
 
 export default function Product() {
     return (
@@ -26,7 +23,7 @@ export default function Product() {
                             <div className="product-wrap" data-aos="fade-up" data-aos-delay="200">
                                 <div className="product-img img-zoom mb-25">
                                     <a href="product-details.html">
-                                        <img src={img_product_1} alt=""/>
+                                        <img src={img.img_product_1} alt=""/>
                                     </a>
                                     <div className="product-badge badge-top badge-right badge-pink">
                                         <span>-10%</span>
@@ -62,7 +59,7 @@ export default function Product() {
                             <div className="product-wrap" data-aos="fade-up" data-aos-delay="400">
                                 <div className="product-img img-zoom mb-25">
                                     <a href="product-details.html">
-                                        <img src={img_product_2} alt=""/>
+                                        <img src={img.img_product_2} alt=""/>
                                     </a>
                                     <div className="product-action-wrap">
                                         <button className="product-action-btn-1" title="Wishlist">
@@ -93,7 +90,7 @@ export default function Product() {
                             <div className="product-wrap" data-aos="fade-up" data-aos-delay="600">
                                 <div className="product-img img-zoom mb-25">
                                     <a href="product-details.html">
-                                        <img src={img_product_3} alt=""/>
+                                        <img src={img.img_product_3} alt=""/>
                                     </a>
                                     <div className="product-badge badge-top badge-right badge-pink">
                                         <span>-10%</span>
@@ -129,7 +126,7 @@ export default function Product() {
                             <div className="product-wrap" data-aos="fade-up" data-aos-delay="800">
                                 <div className="product-img img-zoom mb-25">
                                     <a href="product-details.html">
-                                        <img src={img_product_4} alt=""/>
+                                        <img src={img.img_product_4} alt=""/>
                                     </a>
                                     <div className="product-action-wrap">
                                         <button className="product-action-btn-1" title="Wishlist">
@@ -160,7 +157,7 @@ export default function Product() {
                             <div className="product-wrap" data-aos="fade-up" data-aos-delay="1000">
                                 <div className="product-img img-zoom mb-25">
                                     <a href="product-details.html">
-                                        <img src={img_product_2} alt=""/>
+                                        <img src={img.img_product_2} alt=""/>
                                     </a>
                                     <div className="product-badge badge-top badge-right badge-pink">
                                         <span>-10%</span>
