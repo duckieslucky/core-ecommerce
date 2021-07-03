@@ -27,7 +27,7 @@ export default function Product_detail() {
                             </div>
                             <div className="product-details-action-wrap" data-aos="fade-up" data-aos-delay="1000">
                                 <div className="product-quality">
-                                    <input className="cart-plus-minus-box input-text qty text" name="qtybutton" value="1"/></div>
+                                    <input className="cart-plus-minus-box input-text qty text" name="qtybutton"/></div>
                                 <div className="single-product-cart btn-hover">
                                     <a href="#">Add to cart</a>
                                 </div>

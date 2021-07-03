@@ -41,7 +41,7 @@ export default function Slide() {
                         </div>
                     </div>
                     <div className="swiper-slide">
-                        <div className="intro-section slider-height-1 slider-content-center bg-img single-animation-wrap slider-bg-color-1" style={{ backgroundImage: slide_1 }}>
+                        <div className="intro-section slider-height-1 slider-content-center bg-img single-animation-wrap slider-bg-color-1" style={{ backgroundImage: img.slide_1 }}>
                             <div className="container">
                                 <div className="row align-items-center">
                                     <div className="col-lg-6 col-md-6">

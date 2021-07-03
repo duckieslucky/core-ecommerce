@@ -9,7 +9,7 @@ import img_product_7 from '../images/product/product-7.png'
 import img_product_8 from '../images/product/product-8.png'
 import img_product_9 from '../images/product/product-9.png'
 
-export default img = {
+const img = {
     img_product_1,
     img_product_2,
     img_product_3,
@@ -21,3 +21,5 @@ export default img = {
     img_product_9,
     img_single_product
 }
+
+export default img
