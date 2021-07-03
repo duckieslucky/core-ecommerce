@@ -1,5 +1,5 @@
 import React from 'react'
-import img_quickview from '../images/product/quickview.png'
+import img from '../ImgConfig/Modal'
 
 export default function Modal() {
     return (
@@ -15,7 +15,7 @@ export default function Modal() {
                         <div className="row gx-0">
                             <div className="col-lg-5 col-md-5 col-12">
                                 <div className="modal-img-wrap">
-                                    <img src={img_quickview} alt=""/>
+                                    <img src={img.img_quickview} alt=""/>
                                 </div>
                             </div>
                             <div className="col-lg-7 col-md-7 col-12">

@@ -1,5 +1,5 @@
 import React from 'react'
-import img_single_product from '../images/product/single-product.png'
+import img from '../ImgConfig/Product'
 
 export default function Product_detail() {
     return (
@@ -9,7 +9,7 @@ export default function Product_detail() {
                     <div className="col-lg-6 col-md-6">
                         <div className="home-single-product-img" data-aos="fade-up" data-aos-delay="200">
                             <a href="product-details.html">
-                                <img src={img_single_product} alt=""/></a>
+                                <img src={img.img_single_product} alt=""/></a>
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-6">

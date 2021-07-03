@@ -1,6 +1,5 @@
 import React from 'react';
-import img_cart_1 from '../images/cart/cart-1.jpg'
-import img_cart_2 from '../images/cart/cart-2.jpg'
+import img from '../ImgConfig/Cart'
 
 export default function Cart() {
     return (
@@ -15,7 +14,7 @@ export default function Cart() {
                         <li>
                             <div className="cart-img">
                                 <a href="#">
-                                    <img src={img_cart_1} alt=""/></a>
+                                    <img src={img.img_cart_1} alt=""/></a>
                             </div>
                             <div className="cart-title">
                                 <h4>
@@ -32,7 +31,7 @@ export default function Cart() {
                         <li>
                             <div className="cart-img">
                                 <a href="#">
-                                    <img src={img_cart_2} alt=""/></a>
+                                    <img src={img.img_cart_2} alt=""/></a>
                             </div>
                             <div className="cart-title">
                                 <h4>

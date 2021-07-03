@@ -1,7 +1,5 @@
 import React from 'react';
-import img_blog_1 from '../images/blog/blog-1.png'
-import img_blog_2 from '../images/blog/blog-2.png'
-import img_blog_3 from '../images/blog/blog-3.png'
+import img from '../ImgConfig/Blog'
 
 export default function Blog() {
     return (
@@ -15,7 +13,7 @@ export default function Blog() {
                         <div className="blog-wrap mb-30" data-aos="fade-up" data-aos-delay="200">
                             <div className="blog-img-date-wrap mb-25">
                                 <div className="blog-img">
-                                    <a href="blog-details.html"><img src={img_blog_1} alt=""/></a>
+                                    <a href="blog-details.html"><img src={img.img_blog_1} alt=""/></a>
                                 </div>
                                 <div className="blog-date">
                                     <h5>05
@@ -46,7 +44,7 @@ export default function Blog() {
                         <div className="blog-wrap mb-30" data-aos="fade-up" data-aos-delay="400">
                             <div className="blog-img-date-wrap mb-25">
                                 <div className="blog-img">
-                                    <a href="blog-details.html"><img src={img_blog_2} alt=""/></a>
+                                    <a href="blog-details.html"><img src={img.img_blog_2} alt=""/></a>
                                 </div>
                                 <div className="blog-date">
                                     <h5>06
@@ -77,7 +75,7 @@ export default function Blog() {
                         <div className="blog-wrap mb-30" data-aos="fade-up" data-aos-delay="600">
                             <div className="blog-img-date-wrap mb-25">
                                 <div className="blog-img">
-                                    <a href="blog-details.html"><img src={img_blog_3} alt=""/></a>
+                                    <a href="blog-details.html"><img src={img.img_blog_3} alt=""/></a>
                                 </div>
                                 <div className="blog-date">
                                     <h5>07

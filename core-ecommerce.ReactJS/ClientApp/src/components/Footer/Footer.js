@@ -1,6 +1,5 @@
 import React from 'react'
-import img_logo from '../images/logo/logo.png'
-import img_payment from '../images/icon-img/payment.png'
+import img from '../ImgConfig/Footer'
 
 export default function Footer() {
     return (
@@ -13,12 +12,12 @@ export default function Footer() {
                                 <div className="footer-widget footer-about mb-40">
                                     <div className="footer-logo">
                                         <a href="index.html">
-                                            <img src={img_logo} alt="logo"/></a>
+                                            <img src={img.img_logo} alt="logo"/></a>
                                     </div>
                                     <p>Lorem ipsum dolor sit amet, cons adipi elit, sed do eiusmod tempor incididunt ut aliqua.</p>
                                     <div className="payment-img">
                                         <a href="#">
-                                            <img src={img_payment} alt="logo"/></a>
+                                            <img src={img.img_payment} alt="logo"/></a>
                                     </div>
                                 </div>
                             </div>

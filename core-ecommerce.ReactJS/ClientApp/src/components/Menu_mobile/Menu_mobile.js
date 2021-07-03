@@ -1,7 +1,5 @@
 import React from 'react'
-import img_flag from '../images/icon-img/flag.png'
-import img_spanish from '../images/icon-img/spanish.png'
-import img_arapic from '../images/icon-img/arabic.png'
+import img from '../ImgConfig/Menu_mobile'
 
 export default function Menu_mobile() {
     return (
@@ -104,7 +102,7 @@ export default function Menu_mobile() {
                     </div>
                     <div className="language-wrap">
                         <a className="language-active" href="#">
-                            <img src={img_flag} alt=""/>
+                            <img src={img.img_flag} alt=""/>
                             English
                             <i className=" ti-angle-down "></i>
                         </a>
@@ -112,19 +110,19 @@ export default function Menu_mobile() {
                             <ul>
                                 <li>
                                     <a href="#">
-                                        <img src={img_flag} alt=""/>
+                                        <img src={img.img_flag} alt=""/>
                                         English
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src={img_spanish} alt=""/>
+                                        <img src={img.img_spanish} alt=""/>
                                         Spanish
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src={img_arapic} alt=""/>
+                                        <img src={img.img_arapic} alt=""/>
                                         Arabic
                                     </a>
                                 </li>
