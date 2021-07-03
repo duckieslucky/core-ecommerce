@@ -3,7 +3,7 @@ import img from '../ImgConfig/Modal'
 
 export default function Modal() {
     return (
-        <div className="modal fade quickview-modal-style" id="exampleModal" tabindex="-1" role="dialog">
+        <div className="modal fade quickview-modal-style" id="exampleModal" role="dialog">
             <div className="modal-dialog modal-dialog-centered" role="document">
                 <div className="modal-content">
                     <div className="modal-header">
@@ -47,7 +47,7 @@ export default function Modal() {
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ornare tincidunt neque vel semper. Cras placerat enim sed nisl mattis eleifend.</p>
                                     <div className="product-details-action-wrap">
                                         <div className="product-quality">
-                                            <input className="cart-plus-minus-box input-text qty text" name="qtybutton" value="1"/>
+                                            <input className="cart-plus-minus-box input-text qty text" name="qtybutton"/>
                                         </div>
                                         <div className="single-product-cart btn-hover">
                                             <a href="#">Add to cart</a>

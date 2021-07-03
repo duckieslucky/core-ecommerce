@@ -1,10 +1,8 @@
-const initialState = {}
+import { combineReducers } from "redux"
+import Products from "./products/Products"
 
-const myReducers = (state = initialState, action) => {
-    switch (action.type) {
-        default:
-            return {...state}
-    }
-}
+const myReducers = combineReducers({
+    Products
+})
 
 export default myReducers
